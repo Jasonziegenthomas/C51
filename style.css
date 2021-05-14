@@ -1,0 +1,66 @@
+
+h1 {
+    color:aqua;
+    margin-left: 400px;
+}
+
+.header *{
+    border: solid;
+}
+.mh{
+    background-color: black;
+   display: flex;
+   justify-content: space-between; 
+}
+.header {
+    
+   background-color: black;
+   display: flex;
+   justify-content: space-between;
+}
+.menu a{
+    margin-left: 20px; 
+}
+.menu {
+ margin-right: 10px;
+}
+.siteDescription {
+
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item:hover img{
+    opacity: 0.33;
+}
+.item:hover p{
+    opacity: 1;
+}
+ .item p{
+     opacity: 0;
+     transform: translate(-50%,-50%);
+     position: absolute;
+     top:50%;
+     left:50%;
+ }
+.item {
+ position:relative;
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+body{
+    background-color: #808080;
+    font-color: #000000;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+}
+a:link {
+    color: aqua;
+}
+a:visited {
+    color: aqua;
+}
